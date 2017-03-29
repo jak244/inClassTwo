@@ -4,8 +4,40 @@
 	<meta charset="UTF-8">
 	<title>In Class Assignment 2</title>
 	<link rel="stylesheet" href="./css/inClassTwo.css">
+  <script src="./javascript/inClassTwo.js">
+
+  </script>
 </head>
 <body>
-	
+  <header>
+    <h1>Most Wanted</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li id="right"><a href="tip.html">Submit a Tip</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <table>
+      <tr>
+        <td>
+          <img src="https://s-media-cache-ak0.pinimg.com/564x/b8/71/30/b87130e024e2743442c10c39b81d62fe.jpg" alt="The Joker">
+          <p class="name" id="j">Joker</p>
+          <p id="jc">Find out what Joker's Wanted for!</p>
+          <button type="button" onclick = "jCrimes()">Joker's Crimes</button>
+        </td>
+        <td>
+          <img src="https://s-media-cache-ak0.pinimg.com/564x/f8/10/c1/f810c15e3716ab596447c724c1c5a75e.jpg" alt="Harley Quinn">
+          <p class="name" id="h">Harley Quinn</p>
+          <p id="hc">Find out what Harley's wanted for!</p>
+          <button type="button" onclick = "hCrimes()">Harley's Crimes</button>
+        </td>
+      </tr>
+    </table>
+  </main>
+
 </body>
 </html>

@@ -1,0 +1,101 @@
+body {
+  background-color: tan;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  -webkit-animation-name: title;
+  -webkit-animation-duration: 5s;
+  -webkit-transition: -webkit-transform 2s;
+}
+
+@keyframes title {
+  from {
+
+  }
+  to {
+    color: gold;
+    font-size: 60px;
+  }
+}
+
+h1:hover {
+  -webkit-transform: rotateY(180deg);
+}
+
+nav {
+  border-width: 3px;
+  border-top-style: double;
+  border-bottom-style: double;
+  border-left: none;
+  border-right: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  -webkit-transition: height 2s, width 2s, -webkit-transform 2s;
+}
+
+li:hover {
+  height: 20px;
+  width: 20px;
+  -webkit-transform: rotate(360deg);
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+img {
+
+  width: 200px;
+  height: 200px;
+  -webkit-transition: width 2s, height 2s;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  text-align: center;
+}
+
+
+img:hover {
+  width: 400px;
+  height: 400px;
+}
+
+.name {
+  -webkit-transition: font-size 3s;
+}
+
+.name:hover {
+  font-size: 30px;
+}
+
+#j {
+  color: purple;
+}
+
+#j:hover {
+  color: green;
+}
+
+#h:hover {
+  color: red;
+}

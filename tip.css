@@ -1,0 +1,17 @@
+body {
+  background-color: tan;
+  text-align: center;
+}
+
+nav {
+  border-width: 3px;
+  border-top-style: double;
+  border-bottom-style: double;
+  border-left: none;
+  border-right: none;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
